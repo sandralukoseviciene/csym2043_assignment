@@ -82,13 +82,8 @@
 
   }
  
-  il a {
-    font-size: 20px;
-    color:rgb(140, 187, 30);
-    float: right;
-    padding: 0px;
-  }
- 
+  
+
 
  
  
@@ -144,3 +139,33 @@
   max-width: 100%;
   
 }
+
+
+/* "Changing colour button" taked from class activity */
+button {
+  font-size: 25px;
+  border-radius: 19px;
+  color: rgb(250, 248, 249);
+  background-color: rgb(208, 196, 233);
+
+}
+.part1 {
+  font-size: 25px;
+  color:rgb(103, 60, 158);
+  float: right;
+ 
+ 
+
+ }
+
+ il a {
+  font-size: 20px;
+  color:rgb(245, 240, 241);
+  float: right;
+  padding: 0px;
+
+}
+
+/* review how to center with flex below */
+
+
