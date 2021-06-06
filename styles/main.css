@@ -206,27 +206,12 @@ aside {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* code example taked from last year exersisess */
+/* css for Yoga, meditation, healthy food links*/
 .gallery-item {
 	max-width: 99%;
 	position: relative;
 }
-
-
-
 
 
 .middle {
@@ -239,11 +224,6 @@ aside {
 	text-align: center;
 }
 
-
-
-
-
-
 .text {
 	color: rgb(238, 228, 228);
 	font-size: 1.5em;
@@ -251,3 +231,9 @@ aside {
 }
 
 
+h3 {
+  font-size: 1.2rem;
+margin: 1rem;
+transform: translate(-45%, 15%);
+  color: rgb(126, 117, 117);
+}
