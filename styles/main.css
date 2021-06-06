@@ -64,13 +64,14 @@
     float: left;
     margin-right: 0px;
     padding: 0 20px;
-    color: lightcoralcs;
+   
   }
   
   
    
   li a:hover {
     color: rgb(218, 137, 33);
+    
   }
      
   
@@ -78,7 +79,7 @@
     color: rgb(129, 126, 129);
     font: 12px/1 Helvetica, Verdana, sans-serif;
     list-style-type:  none;
-    
+    border-bottom: 1px solid grey;
 
   }
  
@@ -182,19 +183,7 @@ main {
   padding: 1em;
   grid-area: main;
   width: 90%;
-  
  
-  
-  
-}
-
-aside {
-  background-color: rgb(148, 153, 148);
-
-  padding: 0.3em;
-  grid-area: main;
-  width: 90%;
-  
 }
 
 h5 {
@@ -202,3 +191,16 @@ h5 {
   color: rgb(228, 222, 222);
   
 }
+
+aside {
+  background-color: rgb(148, 153, 148);
+
+  padding: 0.3em;
+  grid-area: aside;
+  width: 90%;
+  display: grid;
+    
+  
+}
+
+
