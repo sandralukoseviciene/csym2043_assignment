@@ -31,7 +31,7 @@
     
      font-size: 25px;
      list-style-type:  none;
-     color:rgb(140, 187, 30);
+     color:rgb(169, 148, 197);
      
      
   }
@@ -169,3 +169,36 @@ button {
 /* review how to center with flex below */
 
 
+p {
+  font-size: 1rem;
+  color: rgb(126, 117, 117);
+}
+
+/* block for home page text.
+css example taked from class activity.  */
+main {
+  background-color: rgb(197, 216, 197);
+
+  padding: 1em;
+  grid-area: main;
+  width: 90%;
+  
+ 
+  
+  
+}
+
+aside {
+  background-color: rgb(148, 153, 148);
+
+  padding: 0.3em;
+  grid-area: main;
+  width: 90%;
+  
+}
+
+h5 {
+  font-size: 1rem;
+  color: rgb(228, 222, 222);
+  
+}
