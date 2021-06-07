@@ -9,14 +9,7 @@
 }
 
   
-  img {
-    
-    max-width: 80%;
-    
 
-  
-   
-  }
 
   body {
      text-align: center;
@@ -115,18 +108,7 @@
 
 }
 
-.video{
- 
-  max-width: 100%;
-  border-radius: 5px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
-  transition: all .3s;
-  overflow: hidden;
-  position: relative;
-  
-  
 
-}
 
 
 .gallery2 {
@@ -236,4 +218,36 @@ h3 {
 margin: 1rem;
 transform: translate(-45%, 15%);
   color: rgb(126, 117, 117);
+}
+
+.video{
+ 
+  max-width: 80%;
+  border-radius: 5px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: all .3s;
+  overflow: hidden;
+  position: relative;
+
+}
+
+
+image {
+
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: all .3s;
+  overflow: hidden;
+  position: relative;
+}
+
+
+img {
+    
+  max-width: 80%;
+  
+
+
+ 
 }
