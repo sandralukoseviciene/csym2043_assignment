@@ -136,6 +136,7 @@ button {
   font-size: 25px;
   color:rgb(103, 60, 158);
   float: right;
+
  
  
 
@@ -169,15 +170,7 @@ main {
  
 }
 
-h5 {
-  font-size: 1.2rem;
-  color: rgb(228, 222, 222);
-margin: 2rem;
-padding: 0.1em;
-transform: translate(-15%, 15%);
-text-align: center;
-  
-}
+
 
 aside {
   background-color: rgb(148, 153, 148);
@@ -251,3 +244,63 @@ img {
 
  
 }
+
+.part2 {
+  font-size: 25px;
+  color:rgb(103, 60, 158);
+  float: right;
+
+  max-width: 50%;
+ 
+
+ }
+
+
+
+ .class{
+  background-color: rgb(168, 170, 170);
+  color: black;
+  display: block;
+  width: 50%;
+  float: left;
+  margin:2%;
+  
+}
+.classimage{
+  
+  color: black;
+  display: block;
+  width: 40%;
+  float: right;
+  margin:2%;
+  
+}
+h1 {
+
+    font-size: 2rem;
+    color: rgb(126, 117, 117);
+  
+}
+
+.classweek{
+  background-color: rgb(204, 207, 207);
+  color: black;
+  display: block;
+  width: 29%;
+  float:left;
+  margin:2%;
+  
+}
+
+h2 {
+  font-size: 1.2rem;
+  color: rgb(228, 222, 222);
+margin: 2rem;
+padding: 0.1em;
+transform: translate(-1%, 15%);
+text-align:left;
+
+  
+}
+
+
