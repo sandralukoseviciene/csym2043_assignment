@@ -304,3 +304,25 @@ text-align:left;
 }
 
 
+.aboutimage{
+  width: 40%;
+  float: left;
+  margin:2%;
+  border-style: none;
+  border-radius: 20%;
+
+  
+}
+
+h5 {
+  font-size: 1.2rem;
+  color: rgb(120, 121, 120);
+  display: block;
+  width: 60%;
+  float: right;
+ 
+ 
+
+
+  
+}
