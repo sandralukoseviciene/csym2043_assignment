@@ -17,5 +17,36 @@ function genQuote() {
 
 
 
+/*prace list page text
+code taked from class activity*/
+
+function print5() {
+    console.log(1);
+    console.log(2);
+    console.log(3);
+    console.log(4);
+    console.log(5);
+  
+  }
+  
+  print5();
+  print5(); 
+  function myClickFunction() {
+     var element = document.getElementById('pageheading');
+  element.firstChild.nodeValue = 'Price list';
+  
+  var element = document.getElementById('paragraph');
+  element.firstChild.nodeValue = '6 weeks programme - 50£; 1 week programme - 10£; individual programms 20-80£';
+  }
+  
+  
+  function myLoadFunction() {
+     var element = document.getElementById('pageheading');
+     element.addEventListener('click' , myClickFunction);
+  }
+  
+  document.addEventListener('DOMContentLoaded' , myLoadFunction);
+  
+  
 
 
