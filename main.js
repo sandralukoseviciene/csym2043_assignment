@@ -1,21 +1,8 @@
 
 
-/* "Changing colour button" taked from class activity */
-/*
-const btn = document.querySelector('button');
-
-function random(number) {
-  return Math.floor(Math.random() * (number+1));
-}
-
-btn.onclick = function() {
-  const rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
-  document.body.style.backgroundColor = rndCol;
-}
-*/
-
-
-/* generator */
+/* 
+  random text generator
+            code example taked from last year exersisess*/
 function genQuote() {
     let randNum = Math.floor(Math.random() * 7) + 1;
     document.getElementById('quote').innerHTML = quotes[randNum];
