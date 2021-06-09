@@ -4,8 +4,9 @@
     <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my portfolio site</title>
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="main.css">
     <script src="https://kit.fontawesome.com/2e1173e81e.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+
     <!-- portfolio model idea and code taked from "https://codepen.io/lizcoultersmith", 
        -->
 
@@ -14,11 +15,17 @@
    
 
 <body>
-
+ 
+<!-- "Changing colour button" taked from class activity -->
+<div class="centre">
+  <button>Change Background</button>
+  </div>
+ 
+   
  
        <nav>
        
-
+      
         <!--class ieas taked from "https://fontawesome.com/icons?d=gallery"-->
         <a href="https://twitter.com/Twitter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
           <i class="fab fa-twitter"></i>
@@ -42,10 +49,11 @@
         </section>    
      
     </nav>
+
     <span> <img src="images/Logo3.png" alt="Logo"></span>
        
         <nav>
-          
+       
                 <ul>
                   <li><a href="index.html">Home</a></li>
                   <li class="active">
@@ -73,10 +81,28 @@
 
           </div> 
          </div> 
+         
+         <div class="quote-container">
+          <div class="card text-center">
+              
+              <div class="card-body">
+                  
+                  <div id="gen" onclick="genQuote()"><i class="fas fa-arrow-circle-right"></i>
+                      <!-- </button> -->
+                  <p id="quote">"My classes are designed to inspire confidence, promote positivity and enhance wellbeing through yoga practice. There is an emphasis on developing simple and effective techniques that will replenish the mind, body and soul.</p>
+                      
+                      
+              </div>
+          </div>
+          </div>
+      </div>
+
+
          <main>
+        
           <p>My classes are designed to inspire confidence, promote positivity and enhance wellbeing through yoga practice. There is an emphasis on developing simple and effective techniques that will replenish the mind, body and soul.</p>
       </main>
-
+    
 
     
 
