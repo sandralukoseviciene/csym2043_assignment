@@ -146,12 +146,6 @@ p {
 
 
 
-aside {
-  background-color: rgb(148, 153, 148);
-  padding: 0em;
-  width: 100%; 
-  text-align: center;
-}
 
 
 
@@ -388,28 +382,39 @@ main {
 }
 
 .centre {
-  display: flex;
+  
   align-items: center;
-  justify-content: left;
+  justify-content: right;
+  float: right;
+ 
+  
   }
 
   .centre2 {
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: right;
     }
 
 
-    /*.part1 {
-      font-size: 25px;
+    .part1 {
+      font-size: 20px;
       color:rgb(103, 60, 158);
-      float: right;
-    
+      float: left;
+      transform: translate(0%, -710%);
      
-     
-    
+
      }
- */
+
+
+aside {
+  font-size: 20px;
+  background-color: rgb(148, 153, 148);
+  width: 100%; 
+  text-align: center;
+  transform: translate(0%, 2200%);
+}
+ 
 
 
 
