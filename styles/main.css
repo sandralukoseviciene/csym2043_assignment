@@ -38,8 +38,8 @@
   
   
   nav {
-    margin:40px;
-    font-size:2rem;
+    margin:20px;
+   
     color: rgb(206, 50, 193);
     text-align: left;
   }
@@ -396,9 +396,15 @@ main {
     justify-content: right;
     }
 
+    .centre3 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin:1%;      
+      }
 
     .part1 {
-      font-size: 20px;
+      font-size: 5px;
       color:rgb(103, 60, 158);
       float: left;
       transform: translate(0%, -710%);
