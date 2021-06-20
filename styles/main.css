@@ -107,11 +107,8 @@
 	grid-auto-rows: minmax(150px, auto);
 }
 
-.picture1{
- 
-  max-width: 100%;
   
-}
+
 
 
 /* "Changing colour button" taked from class activity */
@@ -156,6 +153,28 @@ p {
 	position: relative;
 }
 
+.gallery-item1 {
+	max-width: 30%;
+  position: relative;
+
+  float: right;
+
+  border-style: none;
+  border-radius: 20%;
+  margin:1em;
+}
+
+
+
+.picture1{
+ 
+  max-width: 90%;
+  position:unset;
+ 
+}
+ 
+  
+  
 
 .middle {
 
